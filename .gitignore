@@ -1,0 +1,22 @@
+# logs 
+*.log
+
+# OS generated files 
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+
+# pyenv
+.python-version
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# folders
+samples/**/
+src/**
+
+# large files 
