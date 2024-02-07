@@ -19,7 +19,7 @@ for guessesTaken in range(6):
 
     if guess < number:
         print('Your guess is too low.')
-    
+
     if guess > number:
         print('Your guess is too high.')
 
@@ -33,4 +33,3 @@ if guess == number:
 if guess != number:
     number = str(number)
     print('Nope. The number I was thinking of was ' + number + '.')
-
