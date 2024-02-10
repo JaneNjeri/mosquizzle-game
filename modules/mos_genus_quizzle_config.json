@@ -1,0 +1,102 @@
+{
+  "mosquito_genera": [
+    {
+      "name": "Anopheles gambiae",
+      "features": [
+        "Feeding_biting_time: Nighttime",
+        "Adaptation_to_environment: Preferentially feeds on humans",
+        "Vector_of: Malaria",
+        "Distinct_physical_features: Long and slender abdomen, Pale wings",
+        "Biting_behaviour: Indoor",
+        "Larval_breeding_areas: Temporary rain pools",
+        "Larval_behaviour: Rests parallel to water surface",
+        "Adult_lifespan: 2-3 weeks",
+        "Flight_range: Short, within a few kilometers"
+      ]
+    },
+    {
+      "name": "Aedes aegypti",
+      "features": [
+        "Feeding_biting_time: Daytime",
+        "Adaptation_to_environment: Urban habitats",
+        "Vector_of: Zika virus, Dengue fever",
+        "Distinct_physical_features: Silver-scaled body, White markings",
+        "Biting_behaviour: Outdoor",
+        "Larval_breeding_areas: Standing water in containers",
+        "Larval_behaviour: Rests just below water surface",
+        "Adult_lifespan: 2-4 weeks",
+        "Flight_range: Can travel up to several hundred meters"
+      ]
+    },
+    {
+      "name": "Culex pipiens",
+      "features": [
+        "Feeding_biting_time: Nighttime",
+        "Adaptation_to_environment: Urban and rural habitats",
+        "Vector_of: West Nile virus",
+        "Distinct_physical_features: Brownish body with pale scales",
+        "Biting_behaviour: Outdoor",
+        "Larval_breeding_areas: Standing water in various environments",
+        "Larval_behaviour: Rests parallel to water surface",
+        "Adult_lifespan: Up to one month",
+        "Flight_range: Can travel several kilometers"
+      ]
+    },
+    {
+      "name": "Aedes albopictus",
+      "features": [
+        "Feeding_biting_time: Daytime",
+        "Adaptation_to_environment: Urban and suburban areas",
+        "Vector_of: Dengue fever, Chikungunya virus",
+        "Distinct_physical_features: Black and white striped legs",
+        "Biting_behaviour: Outdoor",
+        "Larval_breeding_areas: Artificial containers and natural habitats",
+        "Larval_behaviour: Rests just below water surface",
+        "Adult_lifespan: 2-4 weeks",
+        "Flight_range: Can travel several hundred meters"
+      ]
+    },
+    {
+      "name": "Culex quinquefasciatus",
+      "features": [
+        "Feeding_biting_time: Nighttime",
+        "Adaptation_to_environment: Urban and rural habitats",
+        "Vector_of: Filariasis",
+        "Distinct_physical_features: Abdominal bands",
+        "Biting_behaviour: Outdoor",
+        "Larval_breeding_areas: Standing water, septic tanks, and cesspools",
+        "Larval_behaviour: Rests parallel to water surface",
+        "Adult_lifespan: Up to one month",
+        "Flight_range: Can travel several kilometers"
+      ]
+    },
+    {
+      "name": "Aedes triseriatus",
+      "features": [
+        "Feeding_biting_time: Daytime",
+        "Adaptation_to_environment: Forested areas",
+        "Vector_of: La Crosse virus",
+        "Distinct_physical_features: Silver-scaled body, White bands on legs",
+        "Biting_behaviour: Outdoor",
+        "Larval_breeding_areas: Tree holes and artificial containers",
+        "Larval_behaviour: Rests just below water surface",
+        "Adult_lifespan: 2-4 weeks",
+        "Flight_range: Can travel several hundred meters"
+      ]
+    },
+    {
+      "name": "Culiseta melanura",
+      "features": [
+        "Feeding_biting_time: Nighttime",
+        "Adaptation_to_environment: Swampy areas",
+        "Vector_of: Eastern equine encephalitis virus",
+        "Distinct_physical_features: Dark body with pale bands on proboscis",
+        "Biting_behaviour: Outdoor",
+        "Larval_breeding_areas: Swampy areas and containers",
+        "Larval_behaviour: Rests parallel to water surface",
+        "Adult_lifespan: 2-3 weeks",
+        "Flight_range: Can travel several kilometers"
+      ]
+    }
+  ]
+}
