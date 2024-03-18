@@ -1,4 +1,4 @@
-# main_menu.py
+# launcher.py
 
 """
 
@@ -8,15 +8,17 @@ The loop continues until the user chooses to exit (option 0)
 
 """
 
+import os
+
 # import functions from the modules
 from modules.mos_control import MalariaControlGame
 from modules.mos_genus_quizzle import MosGenusGuessingGame
-from modules.mos_species_quizzle import MosSpeciesGuessingGame
+from modules.anoph_species_quizzle import AnoSpeciesGuessingGame
 
 
 def display_menu():
-    print('Welcome to Mos_quizzle - The Game Menu!')
-    print('1. Control mosquito population')
+    print('\nWelcome to Mos_quizzle - The Game Menu!')
+    print('1. Control mosquito population game')
     print('2. Guess mosquito genus based on features')
     print('3. Guess mosquito species based on features')
     print('0. Exit')
@@ -26,15 +28,22 @@ def play_game1():
     game_instance = MalariaControlGame()
     game_instance.play()
 
+# get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
 def play_game2():
     print('Starting Game 2...')
-    game_instance = MosGenusGuessingGame()
+    config_file = os.path.join(current_dir, 'modules', 'mos_genus_quizzle_config.json')
+    game_instance = MosGenusGuessingGame(config_file)
     game_instance.play()
+
 
 def play_game3():
     print('Starting Game 3...')
-    game_instance = MosSpeciesGuessingGame()
+    config_file = os.path.join(current_dir, 'modules', 'anopheles_species_config.json')
+    game_instance = AnoSpeciesGuessingGame(config_file)
     game_instance.play()
+
 
 def main():
     print('***********************************')
@@ -43,7 +52,7 @@ def main():
 
     while True:
         display_menu()
-        choice = input('Enter your choice (0-3): ')
+        choice = input('Select your game choice (0-3): ')
 
         if choice == '1':
             play_game1()
