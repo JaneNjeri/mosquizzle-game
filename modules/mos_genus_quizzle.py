@@ -15,11 +15,11 @@ class MosGenusGuessingGame:
         with open(config_file, 'r') as file:
             self.config_data = json.load(file)
 
-        self.mosquito_genus = self.config_data.get('mosquito_genera', [])
+        self.mosquito_genera = self.config_data.get('mosquito_genera', [])
 
     def display_genus_options(self):
         print('Available mosquito genus to choose from:')
-        for i, genus in enumerate(self.mosquito_genus, 1):
+        for i, genus in enumerate(self.mosquito_genera, 1):
             print(f"{i}. {genus['name']}")
 
     def display_features(self, features):
@@ -32,7 +32,7 @@ class MosGenusGuessingGame:
 
         while True:
             self.display_genus_options()
-            selected_genus = random.choice(self.mosquito_genus)
+            selected_genus = random.choice(self.mosquito_genera)
             features_to_guess = selected_genus.get('features', [])
 
             print('\nGuess the mosquito genus based on the following features:')
@@ -41,8 +41,8 @@ class MosGenusGuessingGame:
             user_input = input('Enter the number corresponding to your guess: ')
             user_answer = int(user_input)
 
-            if 1 <= user_answer <= len(self.mosquito_genus):
-                user_selected_genus = self.mosquito_genus[user_answer - 1]['name']
+            if 1 <= user_answer <= len(self.mosquito_genera):
+                user_selected_genus = self.mosquito_genera[user_answer - 1]['name']
                 if user_selected_genus == selected_genus['name']:
                     print("Congratulations! You've correctly identified the mosquito genus:", selected_genus['name'])
                 else:
@@ -50,7 +50,7 @@ class MosGenusGuessingGame:
             else:
                 print('Invalid input. Please enter a number corresponding to your guess.')
 
-            retry = input('Do you want to guess again? (y/n): ').lower()
+            retry = input('Do you want to play again? (y/n): ').lower()
             if retry != 'y':
                 print('Thanks for playing! Exiting the game.')
                 break
