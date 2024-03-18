@@ -5,14 +5,14 @@ Get ready for a trio of lively, text-based adventures waiting for you in the Mos
 
 ### Games Galore:
 
-#### Mosquito Mayhem:
+   - #### Mosquito Mayhem:
    
 Engage in a lively text-based battle against mosquitoes to save the day and prevent the spread of malaria!
    
-#### _Anopheles_ Mosquito Species Showdown:
+   - #### _Anopheles_ Mosquito Species Showdown:
 Embark on a lively text-based quiz adventure that prompts you with questions about _Anopheles_ mosquito characteristics. Your task? Guess the correct mosquito species from a curated list, and let the mosquito magic unfold.
    
-#### Mosquito Genus Jamboree:
+   - #### Mosquito Genus Jamboree:
    
 Join the text-based guessing game that puts your mosquito knowledge to the test. Can you correctly guess the mosquito genus from a handpicked lineup? Take a shot and let the guessing games commence!
 
