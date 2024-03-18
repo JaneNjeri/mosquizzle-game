@@ -1,6 +1,5 @@
 # Mosquizzle-game
 
-Step right up to the Carnival of Games!
 
 Get ready for a trio of lively, text-based adventures waiting for you in the Mosquizzle game collection. To kick things off, simply run the `launcher`, which will whisk you away to the energetic Main Menu where the Hall of Games comes to life.
 
