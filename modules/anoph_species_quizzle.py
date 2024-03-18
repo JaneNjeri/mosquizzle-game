@@ -60,8 +60,3 @@ class AnoSpeciesGuessingGame:
             if retry != 'y':
                 print('Thanks for playing! Exiting the game.')
                 break
-
-if __name__ == '__main__':
-    config_file = 'anopheles_species_config.json'
-    game = AnoSpeciesGuessingGame(config_file)
-    game.play()
