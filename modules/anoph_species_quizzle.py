@@ -30,7 +30,7 @@ class AnoSpeciesGuessingGame:
     def play(self):
         print('Welcome to the Anopheles Mosquito Species Guessing Game!')
 
-        while True:
+        while self.mosquito_species:
             self.display_species_options()
             selected_species = random.choice(self.mosquito_species)
             features_to_guess = selected_species.get('features', [])
@@ -45,12 +45,18 @@ class AnoSpeciesGuessingGame:
                 user_selected_species = self.mosquito_species[user_answer - 1]['name']
                 if user_selected_species == selected_species['name']:
                     print("Congratulations! You've correctly identified the Anopheles mosquito species:", selected_species['name'])
+                    self.mosquito_species.remove(selected_species)
                 else:
                     print(f"Incorrect! The correct species is: {selected_species['name']}")
             else:
                 print('Invalid input. Please enter a number corresponding to your guess.')
 
-            retry = input('Do you want to guess again? (y/n): ').lower()
+            if not self.mosquito_species:
+                print('You have guessed all the Anopheles mosquito species!')
+                print('\nGood job!')
+                break
+
+            retry = input('Do you want to play again? (y/n): ').lower()
             if retry != 'y':
                 print('Thanks for playing! Exiting the game.')
                 break
