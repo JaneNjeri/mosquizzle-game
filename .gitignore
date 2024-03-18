@@ -19,7 +19,3 @@ __pycache__/
 .venv
 venv/
 ENV/
-
-# files
-modules/mos_genus_quizzle.py
-modules/mos_species_quizzle.py
