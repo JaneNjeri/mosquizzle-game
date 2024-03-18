@@ -1,0 +1,95 @@
+{
+  "mosquito_species": [
+    {
+      "name": "Anopheles stephensi",
+      "features": [
+        "Nighttime biter",
+        "Prefers urban areas",
+        "Vector of malaria",
+        "Body color: Pale brown",
+        "Antenna design: Long and slender",
+        "Biting behavior: Indoor",
+        "Larval breeding sites: Artificial containers",
+        "Larval behavior: Rests at the water surface"
+        ]
+    },
+    {
+      "name": "Anopheles funestus",
+      "features": [
+        "Nighttime biter",
+        "Prefers rural areas",
+        "Vector of malaria",
+        "Body color: Dark brown",
+        "Antenna design: Short and stout",
+        "Biting behavior: Indoor and outdoor",
+        "Larval breeding sites: Natural and artificial habitats",
+        "Larval behavior: Attaches to floating objects"
+        ]
+    },
+    {
+        "name": "Anopheles quadriannulatus",
+        "features": [
+            "Nighttime biter",
+            "Prefers aquatic habitats",
+            "Vector of malaria",
+            "Body color: Light brown",
+            "Antenna design: Medium length",
+            "Biting behavior: Outdoor",
+            "Larval breeding sites: Pools and ponds",
+            "Larval behavior: Floats on the water surface"
+        ]
+    },
+    {
+        "name": "Anopheles gambiae",
+        "features": [
+            "Nighttime biter",
+            "Preferentially feeds on humans",
+            "Vector of malaria",
+            "Body color: Dark brown",
+            "Antenna design: Long and slender",
+            "Biting behavior: Indoor",
+            "Larval breeding sites: Temporary rain pools",
+            "Larval behavior: Rests at the water surface"
+        ]
+    },
+    {
+        "name": "Anopheles arabiensis",
+        "features": [
+            "Nighttime biter",
+            "Adaptable to arid environments",
+            "Vector of malaria",
+            "Body color: Light brown",
+            "Antenna design: Medium length",
+            "Biting behavior: Outdoor",
+            "Larval breeding sites: Shallow water with vegetation",
+            "Larval behavior: Rests at the water surface"
+        ]
+    },
+    {
+        "name": "Anopheles coluzzii",
+        "features": [
+            "Nighttime biter",
+            "Preferentially feeds on humans",
+            "Vector of malaria",
+            "Body color: Dark brown",
+            "Antenna design: Long and slender",
+            "Biting behavior: Indoor",
+            "Larval breeding sites: Pools and slow-flowing rivers",
+            "Larval behavior: Attaches to floating objects"
+        ]
+    },
+    {
+        "name": "Anopheles melas",
+        "features": [
+            "Nighttime biter",
+            "Prefers coastal areas",
+            "Vector of malaria",
+            "Body color: Dark brown",
+            "Antenna design: Short and stout",
+            "Biting behavior: Outdoor",
+            "Larval breeding sites: Coastal pools and swamps",
+            "Larval behavior: Rests at the water surface"
+        ]
+    }
+  ]
+}
